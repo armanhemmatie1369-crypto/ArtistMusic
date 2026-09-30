@@ -44,7 +44,7 @@ class Config:
 
         # Support Links
         self.SUPPORT_CHANNEL: str = getenv("SUPPORT_CHANNEL", "https://t.me/cocoxpy")
-        self.SUPPORT_CHAT: str = getenv("SUPPORT_CHAT", "")
+        self.SUPPORT_CHAT: str = getenv("SUPPORT_CHAT", "https://t.me/coc0chats")
 
         # Excluded Chats
         self.EXCLUDED_CHATS: List[int] = self._parse_excluded_chats()
