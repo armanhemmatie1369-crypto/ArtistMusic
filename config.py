@@ -43,8 +43,8 @@ class Config:
         self.SESSION3: str = getenv("STRING_SESSION3", "")
 
         # Support Links
-        self.SUPPORT_CHANNEL: str = getenv("SUPPORT_CHANNEL", "")
-        self.SUPPORT_CHAT: str = getenv("SUPPORT_CHAT", "https://t.me/Artistbots")
+        self.SUPPORT_CHANNEL: str = getenv("SUPPORT_CHANNEL", "https://t.me/cocoxpy")
+        self.SUPPORT_CHAT: str = getenv("SUPPORT_CHAT", "")
 
         # Excluded Chats
         self.EXCLUDED_CHATS: List[int] = self._parse_excluded_chats()
@@ -54,7 +54,7 @@ class Config:
         self.AUTO_LEAVE: bool = self._str_to_bool(getenv("AUTO_LEAVE", "False"))
         self.THUMB_GEN: bool = self._str_to_bool(getenv("THUMB_GEN", "True"))
         self.VIDEO_PLAY: bool = self._str_to_bool(getenv("VIDEO_PLAY", "True"))
-        self.VIDEO_MAX_HEIGHT: int = self._parse_video_height(https://t.me/cocoxpy)
+        self.VIDEO_MAX_HEIGHT: int = shttps://t.me/coc0chatself._parse_video_height(https://t.me/cocoxpy)
 
         # ArtistBots API @ArtistApibot
         self.ARTISTBOTS_API_URL: str = getenv("ARTISTBOTS_API_URL", "https://www.artistbotsapi.bond")
