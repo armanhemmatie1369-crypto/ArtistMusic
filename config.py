@@ -6,8 +6,8 @@
 # Powered By   : Artist 
 # Type         : API Based Telegram Music Bot
 #
-# Bot          : @ArtistApibot
-# Channel      : https://t.me/artistbots
+# Bot          : @coconfx
+# Channel      : https://t.me/cocoxpy
 # GitHub       : https://github.com/elevenyts/ArtistMusic
 #
 # Unauthorized copying, modification, or redistribution
@@ -23,9 +23,9 @@ load_dotenv()
 class Config:
     def __init__(self):
         # Telegram API
-        self.API_ID: int = int(getenv("API_ID", "29308061"))
-        self.API_HASH: str = getenv("API_HASH", "462de3dfc98fd938ef9c6ee31a72d099")
-        self.BOT_TOKEN: str = getenv("BOT_TOKEN", "")
+        self.API_ID: int = int(getenv("API_ID", "30096016"))
+        self.API_HASH: str = getenv("API_HASH", "8cb456f70dc9036ec765ae6e2cda04b6")
+        self.BOT_TOKEN: str = getenv("BOT_TOKEN", "8652687395:AAFnyijFmyy74axnBBAXtyx5gzIKmcGKD2c")
         self.LOGGER_ID: int = int(getenv("LOGGER_ID", "0"))
         self.OWNER_ID: int = int(getenv("OWNER_ID", "0"))
 
