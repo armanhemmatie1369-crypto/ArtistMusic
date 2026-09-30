@@ -26,8 +26,8 @@ class Config:
         self.API_ID: int = int(getenv("API_ID", "30096016"))
         self.API_HASH: str = getenv("API_HASH", "8cb456f70dc9036ec765ae6e2cda04b6")
         self.BOT_TOKEN: str = getenv("BOT_TOKEN", "8652687395:AAFnyijFmyy74axnBBAXtyx5gzIKmcGKD2c")
-        self.LOGGER_ID: int = int(getenv("LOGGER_ID", "0"))
-        self.OWNER_ID: int = int(getenv("OWNER_ID", "0"))
+        self.LOGGER_ID: int = int(getenv("LOGGER_ID", "-1004307842692"))
+        self.OWNER_ID: int = int(getenv("OWNER_ID", "1087968824"))
 
         # Database
         self.MONGO_URL: str = getenv("MONGO_DB_URI", "mongodb+srv://Elevenyts:Elevenyts@cluster0.vuyc1u2.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
@@ -43,7 +43,7 @@ class Config:
         self.SESSION3: str = getenv("STRING_SESSION3", "")
 
         # Support Links
-        self.SUPPORT_CHANNEL: str = getenv("SUPPORT_CHANNEL", "https://t.me/Elevenytschats")
+        self.SUPPORT_CHANNEL: str = getenv("SUPPORT_CHANNEL", "")
         self.SUPPORT_CHAT: str = getenv("SUPPORT_CHAT", "https://t.me/Artistbots")
 
         # Excluded Chats
@@ -54,7 +54,7 @@ class Config:
         self.AUTO_LEAVE: bool = self._str_to_bool(getenv("AUTO_LEAVE", "False"))
         self.THUMB_GEN: bool = self._str_to_bool(getenv("THUMB_GEN", "True"))
         self.VIDEO_PLAY: bool = self._str_to_bool(getenv("VIDEO_PLAY", "True"))
-        self.VIDEO_MAX_HEIGHT: int = self._parse_video_height()
+        self.VIDEO_MAX_HEIGHT: int = self._parse_video_height(https://t.me/cocoxpy)
 
         # ArtistBots API @ArtistApibot
         self.ARTISTBOTS_API_URL: str = getenv("ARTISTBOTS_API_URL", "https://www.artistbotsapi.bond")
